@@ -1,0 +1,434 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    color: black;
+    background-color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    margin: 0;
+}
+.btn{
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: gray;
+}
+label{
+    color: #ff8001;
+}
+.LOGO img{
+    height: 64px;
+    width: 64px;
+}
+#header{
+    padding-top: 2vh;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#header ul{
+    display: flex; 
+}
+#header li{
+    padding: 5px;
+    list-style: none;
+}
+#header a{
+    color: #ff8001;
+    text-decoration: none;
+}
+#header a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.contactprt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+#contact{
+    margin: 5vw;
+    width: 70vw;
+    height: 40vw;
+    box-shadow: 0px 0px 5px;
+    display: flex;
+    border-radius: 15px;
+}
+.cntinfo{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 25vw;
+    padding: 5vw;
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cntinfo p{
+    margin: 5px;
+}
+.cntinfo h1{
+    margin: 5px;
+}
+.icons{
+    display: flex;
+}
+.icons div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+.icons img{
+    width: 68px;
+    margin: 2px;
+}
+.cntmsg{
+    background-color: rgb(36, 36, 36);
+    width: 25vw;
+    padding: 5vw;
+    color: whitesmoke;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.cntmsg p{
+    margin: 5px;
+}
+.cntmsg h1{
+    margin: 5px;
+}
+.cntmsg div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cntinp{
+    margin: 5px;
+    border: none;
+    border-bottom: #ff8001 solid 2px;
+    background: none;
+    color: whitesmoke;
+}
+.cntmsg input:focus{
+    outline: none;
+}
+.cntmsg textarea:focus{
+    outline: none;
+}
+.cntbtn{
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ff8001;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: whitesmoke;
+    width: fit-content;
+}
+.cntbtn:hover{
+    background-color: orangered;
+}
+.cntTA{
+    margin: 5px;
+    border: none;
+    border-bottom: #ff8001 solid 2px;
+    background: none;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+#About{
+    padding: 25vw;
+    padding-top: 15vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30vh;
+}
+#About h1{
+    font-size: 64px;
+    margin: 0;
+}
+#About p{
+    padding-right: 15vw;
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#About ul{
+    display: flex;
+    padding-left: 0;
+}
+#About li{
+    list-style: none;
+    padding-left: 5px;
+}
+#About li img{
+    width: 25px;
+    height: 25px;
+    margin-left: 0;
+}
+#Projects {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.prjTitle{
+    font-size: 64px;
+    max-width: 85vw;
+}
+
+.prj h1{
+    font-size: 48px;
+}
+.prj{
+    margin: 5vw;
+    width: 60vw;
+    height: 40vw;
+    box-shadow: 0px 0px 5px;
+    border-radius: 15px;
+    background-image: url(https://img.freepik.com/premium-photo/responsive-design-website-devices-isolated-white-background-3d-rendering-mockup_72104-3682.jpg?w=2000);
+    background-repeat:no-repeat;
+    background-position:100px 200px;
+    background-position: center center;
+    background-size: 75vw;
+    transition: background-size .5s;
+    color: whitesmoke;
+    margin-top: 5vw;
+
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.prj h1{
+    display: none;
+}
+.prj p{
+    display: none;
+    margin: 5vw;
+}
+.prj:hover{
+    transition: all .5s;
+    background-size: 90vw;
+    box-shadow:inset 0 0 0 2000px rgb(78, 76, 76, 0.9);
+}
+.prj:hover h1{
+    display: block;
+}
+.prj:hover p{
+    display: block;
+}
+footer{
+    background-color: black;
+    padding-top: 10%;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer ul{
+    display: flex; 
+    padding-left: 0;
+}
+footer li{
+    list-style: none;
+    padding: 5px;
+}
+footer a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer p{
+    color: whitesmoke;
+}
+/*media queeries babyyy*/
+
+@media only screen and (max-width: 1040px){
+    #About h1{
+        font-size: 64px;
+        margin: 0;
+    }
+    #About p{
+        padding-right: 15vw;
+        font-size: 18px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .prj h1{
+        display: none;
+        font-size: 24px;
+    }
+    .prj p{
+        display: none;
+        font-size: 12px;
+    }
+    #contact{
+        margin: 5vw;
+        width: 70vw;
+        height: 70vh;
+        box-shadow: 0px 0px 5px;
+        display: flex;
+        border-radius: 15px;
+    }
+    .cntinfo{
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        width: 25vw;
+        padding: 5vw;
+        background-color: whitesmoke;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .cntinfo p{
+        margin: 5px;
+        font-size: 12px;
+    }
+    .cntinfo h1{
+        margin: 5px;
+        font-size: 24px;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+    }
+    .icons div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+    }
+    .icons img{
+        width: 32px;
+        margin: 2px;
+    }
+    .cntmsg p{
+        margin: 5px;
+        font-size: 12px;
+    }
+    .cntmsg h1{
+        margin: 5px;
+        font-size: 24px;
+    }
+    .cntmsg h4{
+        font-size: 12px;
+    }
+    .cntmsg button{
+        font-size: 12px;
+    }
+    .cntinp{
+        margin: 5px;
+        border: none;
+        border-bottom: #ff8001 solid 2px;
+        background: none;
+        color: whitesmoke;
+        font-size: 12px;
+    }
+    .cntTA{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #About h1{
+        font-size: 64px;
+        margin: 0;
+    }
+    #About p{
+        padding-right: 15vw;
+        font-size: 18px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .prj h1{
+        display: none;
+        font-size: 16px;
+    }
+    .prj p{
+        display: none;
+        font-size: 8px;
+    }
+    #contact{
+        margin: 5vw;
+        width: 70vw;
+        height: 70vh;
+        box-shadow: 0px 0px 5px;
+        display: flex;
+        border-radius: 15px;
+    }
+    .cntinfo{
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        width: 25vw;
+        padding: 5vw;
+        background-color: whitesmoke;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .cntinfo p{
+        margin: 5px;
+        font-size: 8px;
+    }
+    .cntinfo h1{
+        margin: 5px;
+        font-size: 16px;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+    }
+    .icons div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+    }
+    .icons img{
+        width: 32px;
+        margin: 2px;
+    }
+    .cntmsg p{
+        margin: 5px;
+        font-size: 8px;
+    }
+    .cntmsg h1{
+        margin: 5px;
+        font-size: 16px;
+    }
+    .cntmsg h4{
+        font-size: 8px;
+    }
+    .cntmsg button{
+        font-size: 8px;
+    }
+    .cntinp{
+        margin: 5px;
+        border: none;
+        border-bottom: #ff8001 solid 2px;
+        background: none;
+        color: whitesmoke;
+        font-size: 8px;
+    }
+    .cntTA{
+        font-size: 8px;
+    }
+}
